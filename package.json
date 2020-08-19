@@ -1,0 +1,26 @@
+{
+  "name": "web3fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Cream_apy.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "big-number": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FiveBoroughs/web3fun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FiveBoroughs/web3fun/issues"
+  },
+  "homepage": "https://github.com/FiveBoroughs/web3fun#readme"
+}
