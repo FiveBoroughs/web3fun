@@ -104,7 +104,7 @@ const getUsdPrice = async sym => {
         console.log('Staked ' + Math.round(poolTokenBalance) + _token + ' = $' + (poolTokenBalanceUsd / 1000000).toFixed(2) + 'M')
         console.log('Pool total rewards ' + Math.round(rewardRateDay) + ' PASTA/day = $' + (rewardRateDay * PASTA_USD / 1000).toFixed(2) + 'k')
         console.log('$' + stakedAmount / 1000 + 'k stake rewards ' + Math.round(rewardDailyEstimate) + ' PASTA/day = $' + (rewardDailyEstimate * PASTA_USD / 1000).toFixed(2) + 'k')
-        console.log('APY : ' + (rewardDailyEstimate * 365 / stakedAmount * 100).toFixed(2) + '%')
+        console.log('APY : ' + (rewardPerToken * PASTA_USD * 100 / tokenUSD * 365).toFixed(2) + '%')
 
         totalLockedValue += poolTokenBalanceUsd;
     }
