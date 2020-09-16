@@ -7,11 +7,38 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "SpaghettiMoney_APY",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/SpaghettiMoney_APY.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "CreamYFI_APY",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/CreamYFI_APY.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "address watcher",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Address_Watcher.js"
+        }
+        {
+            "name": "Decode TimeLock",
+            "program": "${workspaceFolder}/decodeTimeLocks.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
         }
     ]
 }
